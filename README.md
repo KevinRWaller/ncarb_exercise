@@ -1,5 +1,24 @@
 # API-based application exercise with Angular 1.x and ASP.NET Web API 
 
+# Walk Through
+
+Testing the API
+1. Open the sln file in the /API directory with Visual Studio.
+
+1. Pres Ctrl+F5 to start the API.
+1. Navigate to http://localhost:3928/api/person to see the list of two people.
+
+Testing the Angular App
+1. Navigate to the /UI directory using the Node.js or Windows command box.
+1. Run 'npm start' to start the UI.
+1, Navigate to http://localhost:8000/
+1. The page will display the list of people. (API call to endpoint that returns the list of people.)
+1. Click on the 'Edit' in right column.
+1. Make changes to the text.
+1. Click 'Save' to save your changes. (API call to endpoint that updates the persons information.)
+
+----------------------------------------------------------------------------------------------------------------------------
+
 This is an exercise to use a JavaScript (Angular 1.x in this case) front-end to use a basic API to get data and send data updates. Following the steps below, you should use the code as a starting point to do the exercise and push the code to a new repo as your final product.
 
 This repo has a skeleton Angular 1.x app (/UI), and ASP.NET API app (/API). 
